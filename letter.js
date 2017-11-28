@@ -5,12 +5,12 @@ var letter = function(letter) {
 
 	
 	this.printInfo = function(){
-		if (this.value == " ") {
+		if (this.letter == " ") {
 		this.show = true;
 		return " ";
 		}	 
 		if (this.show = false){
-			return this.value;
+			return this.letter;
 		}
 		else {
 			return "_ ";
@@ -18,3 +18,4 @@ var letter = function(letter) {
 	}	
 };
 
+exports.letter = letter;
